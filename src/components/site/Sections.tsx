@@ -402,8 +402,10 @@ export function FinalCTA() {
             >
               <Mail className="h-4 w-4" /> {site.email}
             </a>
-            <div className="mt-8 inline-flex items-center gap-2 rounded-full border border-line bg-surface-2/60 px-3 py-1 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-              <span className="status-dot" /> Cloud <span className="text-line-strong">·</span> Remote
+            <div className="mt-8 flex justify-center">
+              <span className="inline-flex items-center gap-2 rounded-full border border-line bg-surface-2/60 px-3 py-1 font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
+                <span className="status-dot" /> Online · Secure · Available
+              </span>
             </div>
           </div>
         </div>
